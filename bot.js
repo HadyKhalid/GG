@@ -4,7 +4,7 @@ const prefix = '.'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`playing`,"3K")
+client.user.setGame(`WnAsH-Time`,"PlayNow!")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -198,7 +198,7 @@ message.channel.awaitMessages(filte, { max: 1, time: 15000, errors: ['time'] })
   }
 });
 
-const developers = ["462437279487754240","442670807240671252",""]
+const developers = ["465999996400173066","442670807240671252","427024543463374850"]
 const adminprefix = "!";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
